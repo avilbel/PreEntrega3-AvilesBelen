@@ -26,24 +26,56 @@
 </head>
 
 <body>
-    <header>
-        <div class="navBar">
-            <div class="navlogo">
-                <a href="../index.html"><img src="../pics/logo2.png" >
-            </div></a>
-            <ul class="links">
-                <li><a href="../paginas/admin.html">Administrativo</a></li>
-                <li><a href="../aginas/at.html">Acidentes de Transito</a></li>
-                <li><a href="../paginas/contact.html">Contacto</a></li>
-                <li><a href="../paginas/dc.html">Derecho Civil</a></li>
-                <li><a href="../paginas/dp.html">Derecho Penal</a></li>
-                <li><a href="../paginas/suc.html">Suceciones</a></li>
-            </ul>
-            <div class="toggle_btn">
-                <span class="fa-solid fa-bars"></span>
+    <header class="nav">
+        <nav class="navbar">
+          <div class="container">
+            <a class="navbar-b" href="../index.html"
+              ><img src="../pics/logo2.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar" id="navbarText">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../paginas/admin.html"
+                    >Administrativo</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/at.html"
+                    >Acidente De Trafico</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/contact.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/dc.html">Derecho Civil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/dp.html">Derecho Penal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/suc.html">Sucesiones</a>
+                </li>
+              </ul>
             </div>
-        </div>
-     </header> 
+          </div>
+        </nav>
+      </header>
+      <main>
     <main>
         <div class="title"><img src="../pics/logo/dp.png" alt=""></div>
         <div class="at-p">
@@ -61,12 +93,30 @@
 <!-- Footer-->
     <footer class="footer">
         <div class="btn-group-footer" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary"> <a href="https://ar.linkedin.com/in/mariana-noelia-grosso-17845190?original_referer=https%3A%2F%2Fwww.google.com%2F" target=" blank"> LinkdIn </a></button>
-        
-            <button type="button" class="btn btn-primary"> <a href="https://goo.gl/maps/6LdKGivuHFaySzj59" target=" blank">  Direcion </a> </button>
-        
-            <button type="button" class="btn btn-primary"><a href="https://www.instagram.com/abogada.marianagrosso/" target=" blank"> Insta</a></button>
-        </div>
+        <button type="button" class="f-button">
+            <a
+            href="https://ar.linkedin.com/in/mariana-noelia-grosso-17845190?original_referer=https%3A%2F%2Fwww.google.com%2F"
+            target=" blank"
+            >
+            LinkdIn
+            </a>
+        </button>
+
+        <button type="button" class="f-button">
+            <a href="https://goo.gl/maps/6LdKGivuHFaySzj59" target=" blank">
+            Direcion
+            </a>
+        </button>
+
+        <button type="button" class="f-button">
+            <a
+            href="https://www.instagram.com/abogada.marianagrosso/"
+            target=" blank"
+            >
+            Insta</a
+            >
+        </button>
+        </div> 
         </div>
     </footer>
     <!--End Footer-->

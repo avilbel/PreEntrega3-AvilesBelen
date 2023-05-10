@@ -49,7 +49,7 @@ p {
 
 header {
     grid-area: nav;
-    position: absolute;
+    position: relative;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -85,75 +85,44 @@ header {
     padding: 8px;
     margin: 10px 45%;
     display: flex;
-    position: relative;
-    align-content: center;
     }  
 /****** end of Grid *******/
 /********* NAVBAR *********/
+.nav{
+    width: 100%;
+    display: inline-block;
+    max-width: 100%;
+    margin: 3% 5%;
 
-li{
-    list-style: none;
-    text-decoration: underline;
 }
-a {
-    text-decoration: none;
-    color:#413632;
-    font-size: 1.25rem;
-}
-
-a:hover{
-    color:#897168;
-}
-
-.navBar {
+.navbar {
     width: 90%;
     max-width: 90%;
     margin: 3% 0;
     display: flex;
     align-items: center;
     justify-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #faf2ee;
     border: #897168 1px solid;
-    padding: 1% 2%;
+    padding: 2%;
+}
+.navbar-b{
+    border: #413632 2px solid;
+}
+.nav-item {
+    color:#897168;
+    background-color: #faf2ee;
+}
+.navbar-brand{
+    border: #897168 2px solid;
 }
 
-.navlogo img{
-    border: #2b2422 2px solid;
+.nav-link {
+    border: #897168 2px solid;
+    font-size: larger;
 }
-.links {
-    display: flex;
-    gap: 2rem;
-    font-size: 1rem;
-}
-.toggle_btn {
-    color: #413632;
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-}
-.dropdown-menu{
-    display: none;
-    position: relative;
-    right: 2rem;
-    top: 60px;
-    height: 0;
-    width: 300px;
-    background: #faf2ee;
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.dropdown-menu.open{
-    height: 240px;
-}
-.dropdown-menu li {
-    padding: .7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 /********  End of NavBAr *********/
 /******** INDEX ********/
 .logo{
@@ -211,22 +180,26 @@ p2 {
 }
 
 /********** FOOTER ******/
-
-.f-button {
+.btn-group-footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     justify-items: center;
     align-items: center;
+}
+
+.f-button {
     background-color: #faf2ee;
     font-weight: bolder;  
-    padding: 2%; 
+    padding: 6%;
+    font-size: large;
+
 }
 
 .f-button a{
     background-color: #faf2ee;
     color: #413632;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 /****** End Footer *******/
@@ -331,24 +304,9 @@ p2 {
         font-weight: bolder;
         font-size: large;
     }
-
-    .dropdown-menu{
-        left:2rem;
-        width: unset;
-    }
 }
 
-@media screen and (max-width: 992px){
-      .navBar .links{
-        display: none;
-    }
-    .navBar .toggle_btn{
-        display: flex;
-    }
-    .dropdown-menu{
-        display: flex;
-    }
-}
+
 
 /* screeen */
 @media screen and (min-width: 969px)  {
