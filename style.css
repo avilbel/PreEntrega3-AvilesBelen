@@ -49,7 +49,7 @@ p {
 
 header {
     grid-area: nav;
-    position: relative;
+    position: absolute;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -85,9 +85,11 @@ header {
     padding: 8px;
     margin: 10px 45%;
     display: flex;
+    position: relative;
+    align-content: center;
     }  
 /****** end of Grid *******/
-  /********* NAVBAR *********/
+/********* NAVBAR *********/
 
 li{
     list-style: none;
@@ -121,8 +123,8 @@ a:hover{
 }
 .links {
     display: flex;
-    gap: 6rem;
-    font-size: 4rem;
+    gap: 2rem;
+    font-size: 1rem;
 }
 .toggle_btn {
     color: #413632;
@@ -210,23 +212,23 @@ p2 {
 
 /********** FOOTER ******/
 
-.btn-group-primary {
+.f-button {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
     justify-items: center;
+    align-items: center;
     background-color: #faf2ee;
-    font-weight: bolder;   
+    font-weight: bolder;  
+    padding: 2%; 
 }
 
-.btn-group-primary a{
+.f-button a{
     background-color: #faf2ee;
     color: #413632;
     font-weight: bolder;
 }
-.btn-group-primary button{
-    background-color: #faf2ee;
-}
+
 /****** End Footer *******/
 
 /******** contact bootstrap page  *******/
@@ -240,7 +242,6 @@ p2 {
     color: #897168;
     border: #897168 1px solid;
 }
-
 
 
 /* otras paginas */
@@ -314,7 +315,7 @@ p2 {
         align-items: center;
     }
     .title{
-        max-width: 20%;
+        max-width: 100%
     }
     .carousel{
         width: 100%;
@@ -342,10 +343,10 @@ p2 {
         display: none;
     }
     .navBar .toggle_btn{
-        display: block;
+        display: flex;
     }
     .dropdown-menu{
-        display: block;
+        display: flex;
     }
 }
 
