@@ -59,7 +59,7 @@ header {
 .intro{
     grid-area: intro;
     margin: 10px auto 40px;
-    width: 75%;
+    width: 65%;
     display: flex;
     justify-content: center;
     border: groove 2px  #897168; 
