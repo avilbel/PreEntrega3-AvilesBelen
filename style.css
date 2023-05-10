@@ -30,7 +30,8 @@ p {
     font-family: 'Roboto', sans-serif;
     color:#897168;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4% 4%;
+    padding: 2%;
 }
 
 /* GRID  */
@@ -83,7 +84,7 @@ header {
     grid-area: foot;    
     width: 65%;
     padding: 8px;
-    margin: 10px 45%;
+    margin: 10% 45%;
     display: flex;
     }  
 /****** end of Grid *******/
@@ -92,20 +93,18 @@ header {
     width: 100%;
     display: inline-block;
     max-width: 100%;
-    margin: 3% 5%;
+    margin: 5% 7%;
 
 }
 .navbar {
     width: 90%;
     max-width: 90%;
-    margin: 3% 0;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-items: center;
     justify-content: space-around;
-    background-color: #faf2ee;
-    border: #897168 1px solid;
-    padding: 2%;
+    padding: .5%;
 }
 .navbar-b{
     border: #413632 2px solid;
@@ -122,12 +121,15 @@ header {
     border: #897168 2px solid;
     font-size: larger;
 }
+.navbar-toggler{
+    background-color: #faf2ee;
+}
 
 /********  End of NavBAr *********/
 /******** INDEX ********/
 .logo{
     width: 90%;
-    padding: 2%;
+    padding: 0;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -230,16 +232,23 @@ p2 {
     background-color: #faf2ee;
     margin: 15px auto 15px;
     width: 75%; 
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
 }
 
 /* title */
-.title{
-    max-width: 100%;
+.title {
     display: flex;
     justify-content: center;
-    
 }
-
+.title-fluid{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 /* derecho Civil */
 
@@ -287,8 +296,9 @@ p2 {
         flex-direction: column;
         align-items: center;
     }
-    .title{
-        max-width: 100%
+    .title img.responsive{
+        width: 100px;
+
     }
     .carousel{
         width: 100%;
