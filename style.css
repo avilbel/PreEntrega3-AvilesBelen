@@ -59,7 +59,8 @@ header {
 .intro{
     grid-area: intro;
     margin: 10px auto 40px;
-    width: 65%;
+    width: 55%;
+    height: auto;
     display: flex;
     justify-content: center;
     border: groove 2px  #897168; 
@@ -148,9 +149,9 @@ header {
     font-size: large;
 }
 .mariFoto {
-    width: 45%;
+    width: 40%;
     height: auto;
-    margin: 10px auto 10px;
+    margin: auto 5%;
 }
 
 p2 {
