@@ -260,11 +260,13 @@ p2 {
 
 /* title */
 .pg-title{
-    margin: 2% 30% 2% 30%;
+    margin: 2% 30%;
+    max-width: 100%;
 }
 .at-title{
-    margin: 2% 15% 2% 15%;
+    margin: 2% 15%;
 }
+
 
 
 /* derecho Civil */
@@ -278,7 +280,7 @@ p2 {
 .carousel img{
     opacity: .5;
 }
-.carousel p{
+.carousel-caption d-none d-md-block p{
     font-size: larger;
     font-weight: bolder;
     color: #2b2422;
@@ -287,7 +289,7 @@ p2 {
 .carousel h5{
     color: #413632;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: ;
 }
 /* end derecho Civil */
 
