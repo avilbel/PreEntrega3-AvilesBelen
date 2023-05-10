@@ -59,7 +59,7 @@ header {
 .intro{
     grid-area: intro;
     margin: 10px auto;
-    width: 75%;
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,13 +98,12 @@ header {
 
 }
 .navbar {
-    width: 90%;
-    max-width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: .5%;
 }
 .navbar-b{
@@ -117,7 +116,10 @@ header {
 .navbar-brand{
     border: #897168 2px solid;
 }
-
+.collapse navbar{
+    display:flex;
+    justify-content: flex-end;
+}
 .nav-link {
     border: #897168 2px solid;
     font-size: larger;
@@ -150,12 +152,16 @@ header {
     font-size: large;
 }
 .mariFoto {
-    width: 50%;
+    width: 40%;
     margin: 2%;
 }
 
 .mariTxtWrap p {
- font-size: larger;
+ font-size: 1.5rem;
+ text-align: left;
+ display: flex;
+ justify-content: center;
+ align-content: center;
 }
 /****** End of Mari intro ******/
 
