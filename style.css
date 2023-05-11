@@ -110,8 +110,8 @@ header {
 .navbar-b{
     border: #413632 2px solid;
 }
-.nav-logo{ 
-    
+.nav-pic{
+    width: 10%
 }
 .nav-item {
     color:#897168;
@@ -124,9 +124,9 @@ header {
     display:flex;
     justify-content: flex-end;
 }
-.nav-link {
+.nav-link{
     border: #897168 2px solid;
-    font-size: larger;
+    font-size: 1.5rem;
 }
 .navbar-toggler{
     background-color: #faf2ee;
@@ -201,7 +201,7 @@ header {
     background-color: #faf2ee;
     font-weight: bolder;  
     padding: 6%;
-    font-size: large;
+    
 
 }
 
@@ -209,6 +209,7 @@ header {
     background-color: #faf2ee;
     color: #413632;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 /****** End Footer *******/
@@ -244,7 +245,7 @@ header {
     background-color: #faf2ee;
     margin: 15px auto 15px;
     width: 75%; 
-    font-size: larger;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
 }
