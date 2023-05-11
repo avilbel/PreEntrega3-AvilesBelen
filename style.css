@@ -226,14 +226,19 @@ header {
 }
 
 
-/* otras paginas */
+/* admin pg */
 
 .admin-text{
     border: 2px groove #897168;
     background-color: #faf2ee;
-    margin: 15px auto 15px;
+    margin: 15px auto ;
     width: 75%; 
+    padding: 2%;;
+    font-size: 1.5rem;
+    text-align: left;
 } 
+
+/* **** AT PG */
 .at-p{
     border: 2px groove #897168;
     background-color: #faf2ee;
@@ -306,7 +311,6 @@ header {
     }
     .title img.responsive{
         width: 100px;
-
     }
     .carousel{
         width: 100%;
