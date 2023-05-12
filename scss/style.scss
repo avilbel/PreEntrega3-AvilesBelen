@@ -1,11 +1,13 @@
 
 
-@import "header";
-@import "footer";
-@import "body";
-@import "main";
-@import "media";
-@import "body";
-@import "variable";
-@import "list";
-
+@use "header";
+@use "footer";
+@use "body";
+@use "main";
+@use "media";
+@use "body";
+@use "variable";
+@use "list";
+@use "dc";
+@use "index";
+@use "reset";

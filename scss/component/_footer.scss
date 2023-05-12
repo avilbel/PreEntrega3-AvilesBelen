@@ -1,5 +1,7 @@
 @import"list";
-@import "variable";
+@import"variable";
+@import"reset";
+
 
 footer{
     grid-area: foot;
@@ -8,24 +10,29 @@ footer{
 	margin: 10% 45%;
 	display: flex;
 
-
-
     .btn-group-footer {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         justify-items: center;
         align-items: center;
-    }
-    .f-button {
-	background-color: $background-color;
-	font-weight: bolder;
-	padding: 6%;
-        a {
+
+        .f-button {
             background-color: $background-color;
-            color: nth($color, 2);
-            font-weight: bold;
-            font-size: 2rem;
+            font-weight: bolder;
+            padding: 6%;
+                a {
+                    background-color: $background-color;
+                    color: nth($color, 2);
+                    font-weight: bold;
+                    font-size: 2rem;
+                }
         }
     }
+
+
 }
+
+
+
+

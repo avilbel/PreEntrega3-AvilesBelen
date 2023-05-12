@@ -17,10 +17,10 @@
 		p {
 			font-size: medium;
 			font-weight: bolder;
-			color: $color_3;
+			color:nth($color, 3);
 		}
 		h5 {
-			color: $color_2;
+			color: nth($color, 2);
 			font-weight: bolder;
 			font-size: large;
 		}
