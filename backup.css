@@ -48,13 +48,7 @@ p {
     'dp suc transit admin dc'
     'foot foot foot foot foot';}
 
-header {
-    grid-area: nav;
-    position: relative;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
+
     
 .intro{
     grid-area: intro;

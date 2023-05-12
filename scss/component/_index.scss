@@ -1,0 +1,67 @@
+.gridContainer {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: .5fr repeat(4, 1fr);
+	grid-column-gap: 7px;
+	grid-row-gap: 2px;
+	grid-template-areas: 'nav nav nav nav nav' 'intro intro intro intro intro' 'dp suc transit admin dc' 'dp suc transit admin dc' 'foot foot foot foot foot';
+}
+
+.intro {
+	grid-area: intro;
+	margin: 10px auto;
+	width: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: groove 2px #897168;
+	background-color: $background-color_1;
+}
+.infoBox {
+	dp {
+		grid-area: dp;
+	}
+	suc {
+		grid-area: suc;
+	}
+	transit {
+		grid-area: transit;
+	}
+	admin {
+		grid-area: admin;
+	}
+	dc {
+		grid-area: dc;
+	}
+	border: groove 1px #897168;
+	background-color: $background-color_1;
+	padding: 10px 15px 10px 15px;
+	p {
+		align-items: center;
+	}
+}
+
+.mariPic {
+	padding: 2.5%;
+	display: flex;
+	justify-content: center;
+}
+.mariTxtWrap {
+	margin: 2%;
+	width: 60%;
+	padding: 5%;
+	align-items: center;
+	text-align: left;
+	font-size: large;
+	p {
+		font-size: 1.5rem;
+		text-align: left;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+}
+.mariFoto {
+	width: 40%;
+	margin: 2%;
+}
