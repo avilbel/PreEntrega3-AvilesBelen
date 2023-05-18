@@ -291,6 +291,57 @@ main .cont-form .form-floating {
   font-size: 1.5rem;
   box-shadow: #66615f 20px 25px 15px;
 }
+main .dc-box {
+  display: flex;
+  margin: auto;
+  gap: 3%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .dc-box .dc-boxes {
+  display: flex;
+  border: #53423c 4px solid;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: #66615f 15px 35px 5px;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  justify-content: space-between;
+  transform: 2, 3;
+  transition: all 0.5s;
+}
+main .dc-box .dc-boxes.dc-box:hover .dc-boxes {
+  opacity: 0.5;
+  filter: blur(3px);
+}
+main .dc-box .dc-boxes.dc-box .dc-boxes:hover {
+  opacity: 1;
+  filter: blur(0px);
+  transform: scale(1.2);
+}
+main .dc-box .dc-boxes .dc-boxes-img {
+  margin: auto 2%;
+  border: #53423c 2.5px solid;
+}
+main .dc-box .dc-boxes .dc-boxes-txt {
+  background-color: #e6d4f1;
+  border: #53423c 2px solid;
+  text-align: center;
+  color: #897168;
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+  text-align: right;
+}
+main .dc-box .dc-boxes .dc-boxes-txt .dc-boxes-txt h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  color: #897168;
+  text-align: left;
+}
+
 .footer {
   grid-area: footer;
   display: flex;
