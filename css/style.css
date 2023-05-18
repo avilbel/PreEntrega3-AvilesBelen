@@ -1,3 +1,206 @@
+header {
+  position: relative;
+  padding: 1.5rem;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  background-size: cover;
+  background-position: center;
+  border-bottom: #897168 5px solid;
+  margin-bottom: 8%;
+}
+header .navbar {
+  grid-area: nav;
+  width: 100%;
+  max-width: 100%;
+  height: 2.5%;
+  padding-top: 1px;
+  display: flex;
+}
+header .navbar .navLogo {
+  border: #897168 2px solid;
+  box-shadow: #66615f 5px 5px 5px;
+}
+header .navbar .nav-links {
+  display: flex;
+  gap: 2.5rem;
+}
+header .navbar .nav-links .nav-links li {
+  list-style: none;
+}
+header .navbar .nav-links .nav-links li .nav-links li a {
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  color: #897168;
+  font-size: 1.5rem;
+  background-color: #faf2ee;
+  border: #897168 1px solid;
+  padding: 2px 5px;
+  box-shadow: #66615f 5px 5px 5px;
+}
+header .navbar .nav-links .nav-links li .nav-links li a.nav-links li a:hover {
+  color: #c4aba1;
+}
+header .navbar .contactanos_btn {
+  background-color: #897168;
+  padding: 0.5rem 1rem;
+  color: #faf2ee;
+  border: #50362d 2px solid;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 1 ease;
+  box-shadow: #66615f 5px 5px 5px;
+}
+header .navbar .contactanos_btn.contactanos_btn:hover {
+  scale: 1.05;
+  color: #fff;
+}
+header .navbar .contactanos_btn.contactanos_btn :active {
+  scale: 0.95;
+}
+header .navbar .dropdownMenu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0px;
+  width: 300px;
+  background: #faf2ee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+header .navbar .dropdownMenu .dropdownMenu.open {
+  height: 375px;
+  margin: 60px 70px;
+}
+header .navbar .dropdownMenu .dropdownMenu li {
+  list-style: none;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #897168 1px solid;
+}
+header .navbar .dropdownMenu .dropdownMenu li .dropdownMenu li a {
+  padding: 1px 1.5px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  color: #897168;
+  font-size: 1.5rem;
+  background-color: #faf2ee;
+}
+header .navbar .dropdownMenu .dropdownMenu li.dropdownMenu li a:hover {
+  background-color: #bb9f94;
+  color: #faf2ee;
+}
 
+main .infoBox {
+  border: #897168 5px solid;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  background-position: center;
+  padding: 30px 18px;
+  display: flex;
+  box-shadow: #66615f 25px 45px 5px;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+main .infoBox .intro {
+  margin: auto;
+  width: 65%;
+  padding: 2%;
+  display: flex;
+  border: groove 6px #897168;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  box-shadow: #66615f 30px 30px 10px;
+  border-radius: 10px;
+}
+main .infoBox .intro .mariFoto {
+  width: 50%;
+  margin: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  border: #897168 5px solid;
+  box-shadow: #66615f 10px 15px 5px;
+}
+main .infoBox .intro .introTxt {
+  margin: 2%;
+  width: 100%;
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  text-align: left;
+  color: #5f4e47;
+  background-color: #e6d4f1;
+  border: #897168 4px solid;
+  box-shadow: #66615f 10px 15px 5px;
+}
+main .infoBox .intro .introTxt .introTxt h2 {
+  display: flex-start;
+  align-items: flex-start;
+  justify-content: left;
+  margin-bottom: 0.25%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+main .infoBox .intro .introTxt .introTxt p {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+main .mainBody {
+  display: flex;
+  gap: 2%;
+  margin: 2%;
+}
+main .mainBody .infoBox {
+  border: #897168 5px solid;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  background-position: center;
+  padding: 30px 18px;
+  display: flex;
+  box-shadow: #66615f 25px 45px 5px;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+main .mainBody .infoBox .infoBox-logo {
+  border: #897168 5px solid;
+  background-color: #e6d4f1;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+main .mainBody .infoBox .infoBox-logo .infoBox-logo img {
+  width: 100%;
+  background-color: #e6d4f1;
+  border: #897168 4px solid;
+}
+main .mainBody .infoBox .infoBox-logo .infoBox-logo h3 {
+  padding: 2%;
+  margin-top: 5%;
+  text-decoration: none;
+  color: #897168;
+  font-size: 2rem;
+  font-weight: bold;
+}
+main .mainBody .infoBox .infoBox-logo .infoBox p {
+  padding: 5% 2%;
+  font-size: 1.5rem;
+  color: #897168;
+}
 
 /*# sourceMappingURL=style.css.map */
