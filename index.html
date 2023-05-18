@@ -4,98 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap -->
+
+    <!----------- BOOTSTRAP --------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+    <!----------- END BOOTSTRAP ------------>
+
+    <!-- Font Links -->
+    <!-- cdnjs fonts -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <!-- end Bootstrap -->
-    <!--css link-->
-    <link rel="stylesheet" href="css/backup.css" />
-
-    <!--Font Link-->
-    <!--Prompt-->
+    <!-- End of cdnjs fonts -->
+    <!-- Google fonts -->
+    <!-- font: kanit - SemiBold 600 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;1,100;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap"
       rel="stylesheet"
     />
+    <!-- END font: kanit - SemiBold 600 -->
+    <!-- font: Montserrat - ExtraBold 800 -->
 
-    <!--Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- END  font: Montserrat - ExtraBold 800 -->
+    <!-- font: Montserrat - regular 400 italic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap"
       rel="stylesheet"
     />
 
-    <!-- End of Font Link -->
+    <!-- END font: Montserrat - regular 400 italic-->
+    <!-- End Google fonts -->
+    <!-- End of Font Links -->
+    <link rel="stylesheet" href="style.css" />
 
     <title>Abogada Mariana N. Grosso</title>
   </head>
-  <body class="gridContainerid">
-    <header class="nav">
-      <nav class="navbar">
-        <div>
-          <a class="navbar-b" href="index.html"
-            ><img class="nav-logo" src="pics/sm-logo.png" alt="company-logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar" id="navbarText">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="paginas/admin.html"
-                  >Administrativo</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="paginas/at.html"
-                  >Acidente De Trafico</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="paginas/contact.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="paginas/dc.html">Derecho Civil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="paginas/dp.html">Derecho Penal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="paginas/suc.html">Sucesiones</a>
-              </li>
-            </ul>
-          </div>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navLogo">
+          <a href="index.html"><img src="/pics/sm-logo.png" alt="" /></a>
         </div>
-      </nav>
+        <ul class="nav-links">
+          <li><a href="pg/admin.html">Derecho Administrativo</a></li>
+          <li><a href="pg/at.html">Acidente De Trafico</a></li>
+          <li><a href="pg/dc.html">Derecho Civil</a></li>
+          <li><a href="pg/dp.html">Derecho Penal</a></li>
+          <li><a href="pg/suc.html">Sucesiones</a></li>
+        </ul>
+        <a href="pg/contact.html" class="contactanos_btn">Contactanos!</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdownMenu">
+        <li><a href="pg/admin.html">Derecho Administrativo</a></li>
+        <li><a href="pg/at.html">Acidente De Trafico</a></li>
+        <li><a href="pg/dc.html">Derecho Civil</a></li>
+        <li><a href="pg/dp.html">Derecho Penal</a></li>
+        <li><a href="pg/suc.html">Sucesiones</a></li>
+        <li>
+          <a class="contactanos_btn" href="pg/contact.html">Contactanos!</a>
+        </li>
+      </div>
     </header>
-    <!-- Mariana intro -->
+
+    <!-- function for contactanos btn -->
+    <script>
+      const toggle_btn = document.querySelector(".toggle_btn");
+      const toggle_btnIcon = document.querySelector(".toggle_btn i");
+      const dropdownMenu = document.querySelector(".dropdownMenu");
+
+      toggle_btn.onclick = function () {
+        dropdownMenu.classList.toggle("open");
+        const isOpen = dropdownMenu.classList.contains("open");
+
+        toggle_btn.classList = isOpen
+          ? "fa-solid fa-x-mark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+    <!-- END function for contactanos btn -->
     <main>
-      <section class="intro">
-        <div class="mariPic">
-          <img
-            class="mariFoto"
-            src="pics/main-mari-foto.jpeg"
-            alt="Marianas picture"
-          />
-          <div class="mariTxtWrap">
+      <section class="introBox">
+        <div class="intro">
+          <img class="mariFoto" src="pics/main-mari-foto.jpeg" alt="" />
+          <div class="introTxt">
             <h2>Hola</h2>
             <p>
               Mi nombre es 𝐌𝐚𝐫𝐢𝐚𝐧𝐚 𝐍𝐨𝐞𝐥𝐢𝐚 𝐆𝐫𝐨𝐬𝐬𝐨, soy abogada recibida en la
@@ -109,58 +117,46 @@
           </div>
         </div>
       </section>
-      <!-- END Mariana intro -->
       <section class="mainBody">
-        <!-- Derecho Previsional -->
-        <div class="infoBox dp">
-          <a href="paginas/dp.html">
-            <img class="logo" src="pics/main-pre.png"
-          /></a>
-          <h3>Derecho Previsional</h3>
-          <p>Jubilaciones, Pensiones, Juicios de Reajuste. Anses e IPS.</p>
+        <div class="infoBox pre">
+          <a class="infoBox-logo" href="pg/dp.html">
+            <img src="pics/top-pre.png" alt="" />
+            <h3>Derecho Previsional</h3>
+            <p>Jubilaciones, Pensiones, Juicios de Reajuste. Anses e IPS.</p>
+          </a>
         </div>
-        <!-- END Derecho Previsional -->
-        <!-- Sucesiones -->
-        <div class="infoBox suc">
-          <a href="paginas/suc.html"
-            ><img class="logo" src="pics/main-suc.png"
-          /></a>
-          <h3>Sucesiones</h3>
-          <p>Trámite sucesorio. Confección de Testamento.</p>
-        </div>
-        <!-- END Sucesiones -->
-        <!-- Acidentes de Transito -->
-        <div class="infoBox transit">
-          <a href="paginas/at.html"
-            ><img class="logo" src="pics/main-at.png"
-          /></a>
-          <h3>Acidentes de Transito</h3>
-          <p>
-            Reclamos ante Compañías de Seguro. Juicios por Daños y Perjuicios.
-          </p>
-        </div>
-        <!-- END Acidentes de Transito  -->
-        <!-- Administrativo -->
         <div class="infoBox admin">
-          <a href="paginas/admin.html"
-            ><img class="logo" src="pics/main-admin.png"
-          /></a>
-          <h3>Administrativo</h3>
-          <p>Amparos por Mora. Acciones YPF.</p>
+          <a class="infoBox-logo" href="pg/admin.html">
+            <img src="pics/top-7.png" alt="" />
+            <h3>Derecho Administrativo</h3>
+            <p>Amparos por Mora. Acciones YPF.</p>
+          </a>
         </div>
-        <!-- END Administrativo  -->
-        <!-- Derecho Civil -->
+        <div class="infoBox at">
+          <a class="infoBox-logo" href="pg/at.html">
+            <img src="pics/top-at.png" alt="" />
+            <h3>Acidente De Transito</h3>
+            <p>
+              Reclamos ante Compañías de Seguro. Juicios por Daños y Perjuicios.
+            </p>
+          </a>
+        </div>
         <div class="infoBox dc">
-          <a href="paginas/dc.html"
-            ><img class="logo" src="pics/main-dc.png"
-          /></a>
-          <h3>Derecho Civil</h3>
-          <p>Contratos, Usucapiones.</p>
+          <a class="infoBox-logo" href="pg/dc.html">
+            <img src="pics/top-5.png" alt="" />
+            <h3>Derecho Civil</h3>
+            <p>Contratos, Usucapiones.</p>
+          </a>
         </div>
-        <!-- END Derecho Civil  -->
+        <div class="infoBox suc">
+          <a class="infoBox-logo" href="pg/suc.html">
+            <img src="pics/top-suc.png" alt="" />
+            <h3>Sucesiones</h3>
+            <p>Trámite sucesorio. Confección de Testamento.</p>
+          </a>
+        </div>
       </section>
     </main>
-    <!-- Footer-->
     <footer class="footer">
         <div class="btn-group-footer" role="group" aria-label="Basic example">
             <button type="button" class="f-button"> <a href="https://ar.linkedin.com/in/mariana-noelia-grosso-17845190?original_referer=https%3A%2F%2Fwww.google.com%2F" target=" blank"> LinkdIn </a></button>
@@ -171,9 +167,7 @@
         </div>
         </div>
     </footer>
-    <!--End Footer-->
-
-    <!-- bootstrap-->
+<!-------- bootstrap----------->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
@@ -184,6 +178,6 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
-    <!-- end Bootstrap -->
+<!---------- end Bootstrap --------->
   </body>
 </html>
