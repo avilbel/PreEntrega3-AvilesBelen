@@ -1,9 +1,5 @@
-@import"list";
-@import"variable";
-@import"reset";
 
-
-header{
+header {
 	position: relative;
     padding: 1.5rem;
     background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
@@ -43,7 +39,7 @@ header{
 					padding: 2px 5px; 
 					box-shadow: #66615f 5px 5px 5px;
 					
-					.nav-links li a:hover{
+					&.nav-links li a:hover{
 						color: #c4aba1;
 					}
 				}	
@@ -60,15 +56,15 @@ header{
 			font-size: 1.5rem;
 			font-weight: bold;
 			cursor: pointer;
-			transition: scale: 1 ease;
+			transition: scale 1 ease;
 			box-shadow: #66615f 5px 5px 5px;
 		  
-			.contactanos_btn:hover{
+			&.contactanos_btn:hover{
 				scale: 1.05;
 				color:  #fff;
 			}
 			
-			.contactanos_btn :active{
+			&.contactanos_btn :active{
 				scale: .95;
 			}
 		}
@@ -105,7 +101,7 @@ header{
 					font-size: 1.5rem; 
 					background-color: #faf2ee;
 				}
-						.dropdownMenu li a:hover{
+						&.dropdownMenu li a:hover{
 							background-color: #bb9f94;
 							color: #faf2ee;
 						}
@@ -113,4 +109,6 @@ header{
 				}
 			}
 		}
-		
+
+
+
