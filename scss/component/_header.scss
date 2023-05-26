@@ -24,7 +24,8 @@ header {
 
 		.nav-links{
 			display: flex;
-			gap: 2.5rem; 
+			gap: 2.5rem;
+			
 
 			li{
 				list-style: none;
@@ -80,7 +81,7 @@ header {
 			border-radius: 10px;
 			overflow: hidden;
 
-			.dropdownMenu.open{
+			&.dropdownMenu.open{
 				height: 375px;
 				margin: 60px 70px;
 			  }
