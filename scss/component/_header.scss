@@ -26,10 +26,10 @@ header {
 			display: flex;
 			gap: 2.5rem; 
 
-			.nav-links li{
+			li{
 				list-style: none;
 
-				.nav-links li a{
+				a{
 					text-decoration: none;
 					font-family: 'Kanit', sans-serif;
 					color: #897168;
@@ -39,7 +39,7 @@ header {
 					padding: 2px 5px; 
 					box-shadow: #66615f 5px 5px 5px;
 					
-					&.nav-links li a:hover{
+					&a:hover{
 						color: #c4aba1;
 					}
 				}	
@@ -85,15 +85,15 @@ header {
 				margin: 60px 70px;
 			  }
 
-			.dropdownMenu li{
-			list-style: none;
-			padding: .5rem;
-			display: flex;
-			align-items: center; 
-			justify-content: center;
-			border: #897168 1px solid;
+			li{
+				list-style: none;
+				padding: .5rem;
+				display: flex;
+				align-items: center; 
+				justify-content: center;
+				border: #897168 1px solid;
 			
-				.dropdownMenu li a{ 
+				a{ 
 					padding: 1px 1.5px; 
 					text-decoration: none;
 					font-family: 'Kanit', sans-serif;
@@ -101,14 +101,14 @@ header {
 					font-size: 1.5rem; 
 					background-color: #faf2ee;
 				}
-						&.dropdownMenu li a:hover{
+						&a:hover{
 							background-color: #bb9f94;
 							color: #faf2ee;
 						}
 					}
 				}
-			}
-		}
+	}
+}
 
 
 

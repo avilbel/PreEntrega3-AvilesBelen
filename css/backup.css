@@ -135,11 +135,14 @@
   /*** END Header ***/
   
   /***  Intro ***/
-  .intro{
+  .introBox{
     margin: auto;
     width: 65%;
     padding: 2%;
     display: flex;
+  }
+
+  .intro {
     border: groove 6px #897168;
     background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
     box-shadow: #66615f 30px 30px 10px;
@@ -167,7 +170,7 @@
     color:#5f4e47;
     background-color: #e6d4f1;
     border: #897168 4px solid;
-    box-shadow: #66615f 10px 15px 5px
+    box-shadow: #66615f 10px 15px 5px;
   }
   .introTxt h2{
     display: flex-start;
