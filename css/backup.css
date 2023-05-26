@@ -421,14 +421,10 @@ header {
 .dc-boxes-txt{
   background-color: #ece1f3;
   border: #53423c 2px solid;
-  text-align: center;
   color: #897168;
-  text-decoration: none;
-  font-size: 1.5rem;
   width: 50%;
   margin: 2%;
   padding: 2%;
-  text-align: right;
 }
 .dc-boxes-txt h3{
   font-size: 2rem;
@@ -436,9 +432,16 @@ header {
   font-family: 'Kanit', sans-serif;
   color: #897168;
   text-align: left;
-  
+}
+
+.dc-boxes-txt p{
+
+  text-align: right;
+  text-decoration: none;
+  font-size: 1.5rem;
 
 }
+
 /***** END pg DC *****/
 /***** pg Cont    *****/
 .form{

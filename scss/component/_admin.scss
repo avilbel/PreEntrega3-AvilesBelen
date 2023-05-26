@@ -7,7 +7,7 @@ main{
         display: flex;
         justify-content: center;
 
-        .tittle-fluid {
+        &.tittle-fluid {
             width: 25%;
             height: auto;
             display: flex;

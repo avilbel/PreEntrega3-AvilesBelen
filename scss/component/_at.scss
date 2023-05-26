@@ -5,6 +5,7 @@
         grid-area: title;
         display: flex;
         justify-content: center;
+        
 
         .title-fluid{
 
@@ -28,6 +29,7 @@
 
         display: flex;
         justify-content: center;
+        margin-top: 4%;
       
         .carousel-slide {
             width: 50%;
@@ -48,25 +50,29 @@
 
         background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
         padding: .75%;
-        border: #53423c 4px solid;
+        border: #53423c 2.5px solid;
         display: flex;
         justify-content: center;
-        margin-top: 4%;
+        margin: 4% auto;
         box-shadow: #66615f 15px 35px 5px;
         border-radius: 5%;
-        margin: auto;
+        width: 60%;
 
             .at-pBox {
                 display: flex;
                 justify-content: center;
                 background-color: #e6d4f1;
+                border-radius: 5%; 
+                border: #53423c 1px solid; 
+                padding: .5%;
 
                 p {
-                    ext-decoration: none;
+                    text-decoration: none;
                     font-family: 'Kanit', sans-serif;
                     color: #897168;
-                    font-size: 3rem!important;
+                    font-size: 1.5rem!important;
                     border-radius: 5%;
+                    padding: .75%;
                 }
 
              }
