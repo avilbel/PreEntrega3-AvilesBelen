@@ -178,49 +178,54 @@ header .navbar .dropdownMenu lia:hover {
   box-shadow: #66615f 30px 30px 10px;
   border-radius: 10px;
 }
-.indexPG .introBox .mariFoto {
+.indexPG .introBox .intro {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.indexPG .introBox .intro .mariFoto {
   width: 45%;
   margin: 3%;
   display: flex;
   justify-content: center;
   align-content: center;
-  border: #897168 5px solid;
+  border: #897168 3px solid;
   box-shadow: #66615f 10px 15px 5px;
 }
-.indexPG .introBox .introTxt {
-  margin: 2%;
-  width: 100%;
+.indexPG .introBox .intro .introTxt {
+  margin: 1%;
+  width: 60%;
   padding: 4%;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: space-around;
   text-align: left;
   color: #5f4e47;
   background-color: #e6d4f1;
   border: #897168 4px solid;
   box-shadow: #66615f 10px 15px 5px;
 }
-.indexPG .introBox .introTxt h2 {
-  display: flex-start;
+.indexPG .introBox .intro .introTxt h2 {
+  display: flex;
   align-items: flex-start;
   justify-content: left;
-  margin-bottom: 0.25%;
+  margin-bottom: 5%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 3rem;
 }
-.indexPG .introBox .introTxt p {
+.indexPG .introBox .intro .introTxt p {
   display: flex;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-size: 1.5rem;
+  text-align: right;
+  margin-top: 3%;
 }
 
 .mainBody {
   display: flex;
-  gap: 2%;
-  margin: 2%;
+  gap: 1%;
+  margin: 7% 2% 4% 2%;
 }
 .mainBody .infoBox {
   border: #897168 5px solid;
@@ -230,34 +235,41 @@ header .navbar .dropdownMenu lia:hover {
   display: flex;
   box-shadow: #66615f 25px 45px 5px;
   width: 50%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: auto;
   border-radius: 30px;
-  display: flex;
   justify-content: center;
 }
-.mainBody .infoBox .infoBox--logo {
+.mainBody .infoBox .infoBox-logo {
   border: #897168 5px solid;
   background-color: #e6d4f1;
   padding: 5%;
   text-align: center;
-  text-decoration: none;
   border-radius: 20px;
+  text-decoration: none;
+  height: auto;
+  cursor: pointer;
+  transition: scale 1 ease;
 }
-.mainBody .infoBox .infoBox--logo img {
+.mainBody .infoBox .infoBox-logo.infoBox-logo:hover {
+  scale: 1.25;
+  color: #fff;
+}
+.mainBody .infoBox .infoBox-logo.contactanos_btn :active {
+  scale: 2;
+}
+.mainBody .infoBox .infoBox-logo img {
   width: 100%;
   background-color: #e6d4f1;
   border: #897168 4px solid;
 }
-.mainBody .infoBox .infoBox--logo h3 {
+.mainBody .infoBox .infoBox-logo h3 {
   padding: 2%;
   margin-top: 5%;
-  text-decoration: none;
   color: #897168;
   font-size: 2rem;
   font-weight: bold;
 }
-.mainBody .infoBox .infoBox--logo p {
+.mainBody .infoBox .infoBox-logo p {
   padding: 5% 2%;
   font-size: 1.5rem;
   color: #897168;
@@ -267,7 +279,7 @@ header .navbar .dropdownMenu lia:hover {
   display: flex;
   justify-content: center;
 }
-.dc-pg .tittle.tittle-fluid {
+.dc-pg .tittle .tittle-fluid {
   width: 25%;
   height: auto;
   display: flex;
@@ -387,6 +399,42 @@ header .navbar .dropdownMenu lia:hover {
   font-size: 1.5rem !important;
   border-radius: 5%;
   padding: 0.75%;
+}
+
+.suc-pg .tittle {
+  display: flex;
+  justify-content: center;
+}
+.suc-pg .tittle .tittle-fluid {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 5%;
+  border: 4px solid #53423c;
+  padding: 2%;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  border-radius: 50%;
+  box-shadow: #66615f 15px 35px 5px;
+}
+.suc-pg .txt {
+  border: 4px solid #53423c;
+  background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
+  margin: 15px auto;
+  width: 75%;
+  padding: 0.5%;
+  box-shadow: #66615f 15px 35px 5px;
+  border-radius: 5%;
+}
+.suc-pg .txt .p {
+  font-size: 2rem;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
+  background-color: #e6d4f1;
+  border: #53423c 4px solid;
+  border-radius: 5%;
+  padding: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
