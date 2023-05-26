@@ -1,5 +1,4 @@
 
-
 header {
 
 	position: relative;
@@ -50,6 +49,10 @@ header {
 					}
 				}	
 			} 
+
+			@media screen and (max-width: 1700px) {
+				display: none;
+			}
 		}
 
 		.contactanos_btn {  
@@ -75,8 +78,24 @@ header {
 			&.contactanos_btn :active{
 				scale: .95;
 			}
+
+			@media screen and (max-width: 1700px) {
+				display: none;
+			}	
+
 		}
 
+		.toggle_btn{
+			@media screen and (max-width: 1700px) {
+				display: block;
+				margin: 5%;
+				
+			}
+
+
+
+
+		}
 		.dropdownMenu {
 			display: none;
 			position: absolute;
@@ -116,7 +135,21 @@ header {
 							color: #faf2ee;
 						}
 					}
+
+			@media screen and (max-width: 1700px) {
+				display: block;
 				}
+				}
+
+		
+			@media screen and (max-width: 1700px) {
+				display: none;
+			}		
+
+		@media screen and (max-width: 1700px) {
+			display: block;
+			margin-right: 5%;
+			}
 		}
 	}
 

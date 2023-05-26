@@ -39,6 +39,11 @@ header .navbar .nav-links li a {
 header .navbar .nav-links li aa:hover {
   color: #c4aba1;
 }
+@media screen and (max-width: 1700px) {
+  header .navbar .nav-links {
+    display: none;
+  }
+}
 header .navbar .contactanos_btn {
   background-color: #897168;
   padding: 0.5rem 1rem;
@@ -58,6 +63,17 @@ header .navbar .contactanos_btn.contactanos_btn:hover {
 }
 header .navbar .contactanos_btn.contactanos_btn :active {
   scale: 0.95;
+}
+@media screen and (max-width: 1700px) {
+  header .navbar .contactanos_btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 1700px) {
+  header .navbar .toggle_btn {
+    display: block;
+    margin: 5%;
+  }
 }
 header .navbar .dropdownMenu {
   display: none;
@@ -93,6 +109,22 @@ header .navbar .dropdownMenu li a {
 header .navbar .dropdownMenu lia:hover {
   background-color: #bb9f94;
   color: #faf2ee;
+}
+@media screen and (max-width: 1700px) {
+  header .navbar .dropdownMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 1700px) {
+  header .navbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1700px) {
+  header .navbar {
+    display: block;
+    margin-right: 5%;
+  }
 }
 
 .footer {
@@ -192,6 +224,14 @@ header .navbar .dropdownMenu lia:hover {
   border: #897168 3px solid;
   box-shadow: #66615f 10px 15px 5px;
 }
+@media screen and (max-width: 1100px) {
+  .indexPG .introBox .intro .mariFoto {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+}
 .indexPG .introBox .intro .introTxt {
   margin: 1%;
   width: 60%;
@@ -221,12 +261,37 @@ header .navbar .dropdownMenu lia:hover {
   text-align: right;
   margin-top: 3%;
 }
-.indexPG .mainBody {
+@media screen and (max-width: 1100px) {
+  .indexPG .introBox .intro .introTxt {
+    font-size: 1.5rem;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .indexPG .introBox .intro {
+    flex-direction: column;
+    width: 30%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .indexPG .introBox {
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+.mainBody {
   display: flex;
   gap: 1%;
   margin: 7% 2% 4% 2%;
 }
-.indexPG .mainBody .infoBox {
+.mainBody .infoBox {
   border: #897168 5px solid;
   background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
   background-position: center;
@@ -238,7 +303,7 @@ header .navbar .dropdownMenu lia:hover {
   border-radius: 30px;
   justify-content: center;
 }
-.indexPG .mainBody .infoBox .infoBox-logo {
+.mainBody .infoBox .infoBox-logo {
   border: #897168 5px solid;
   background-color: #e6d4f1;
   padding: 5%;
@@ -249,29 +314,46 @@ header .navbar .dropdownMenu lia:hover {
   cursor: pointer;
   transition: scale 1 ease;
 }
-.indexPG .mainBody .infoBox .infoBox-logo.infoBox-logo:hover {
+.mainBody .infoBox .infoBox-logo.infoBox-logo:hover {
   scale: 1.25;
   color: #fff;
 }
-.indexPG .mainBody .infoBox .infoBox-logo.contactanos_btn :active {
+.mainBody .infoBox .infoBox-logo.contactanos_btn :active {
   scale: 2;
 }
-.indexPG .mainBody .infoBox .infoBox-logo img {
+.mainBody .infoBox .infoBox-logo img {
   width: 100%;
   background-color: #e6d4f1;
   border: #897168 4px solid;
 }
-.indexPG .mainBody .infoBox .infoBox-logo h3 {
+.mainBody .infoBox .infoBox-logo h3 {
   padding: 2%;
   margin-top: 5%;
   color: #897168;
   font-size: 2rem;
   font-weight: bold;
 }
-.indexPG .mainBody .infoBox .infoBox-logo p {
+.mainBody .infoBox .infoBox-logo p {
   padding: 5% 2%;
   font-size: 1.5rem;
   color: #897168;
+}
+@media screen and (max-width: 1100px) {
+  .mainBody .infoBox {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mainBody {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 2%;
+    width: 50%;
+  }
 }
 
 .dc-pg .tittle {
@@ -322,6 +404,14 @@ header .navbar .dropdownMenu lia:hover {
   margin: auto 2%;
   border: #53423c 2.5px solid;
 }
+@media screen and (max-width: 1100px) {
+  .dc-pg .dc-box .dc-boxes .dc-boxes-img {
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+}
 .dc-pg .dc-box .dc-boxes .dc-boxes-txt {
   background-color: #ece1f3;
   border: #53423c 2px solid;
@@ -340,6 +430,25 @@ header .navbar .dropdownMenu lia:hover {
   text-align: right;
   text-decoration: none;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 1100px) {
+  .dc-pg .dc-box .dc-boxes .dc-boxes-txt {
+    font-size: 1rem;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .dc-pg .dc-box .dc-boxes {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 468px) {
+  .dc-pg .dc-box {
+    flex-direction: column;
+  }
 }
 
 .at-pg .tittle {
