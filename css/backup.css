@@ -452,7 +452,7 @@ header {
 .btn-sub{
   border: #53423c 2px solid;
   color: #897168;
-  background-color: #eee3df;
+  background-color: #deb09e;
 
 }
 /***** END pg cont *****/
@@ -498,6 +498,11 @@ header {
       margin: auto;
       justify-content: space-evenly;
   
+  }
+  .dc-box{
+    display: flex;
+    flex-direction: column;
+    
   }
 
 }
