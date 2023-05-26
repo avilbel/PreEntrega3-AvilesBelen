@@ -18,6 +18,7 @@
                 width: 100%;
                 height: auto;
 
+
                 .mariFoto{
                     width: 45%;
                     margin: 3%;
@@ -61,10 +62,12 @@
                         text-align: right;
                         margin-top: 3%;
 
+                    
+
                     }
                 }
             } }
-        }
+        
         
 
 
@@ -73,6 +76,8 @@
         display: flex;
         gap: 1%;
         margin: 7% 2% 4% 2%; 
+
+        
 
             .infoBox{
 
@@ -86,7 +91,7 @@
                 margin: auto;
                 border-radius: 30px;
                 justify-content: center;
-               
+
 
                 .infoBox-logo{
 
@@ -137,4 +142,6 @@
             }
 
         }
+
+}
 

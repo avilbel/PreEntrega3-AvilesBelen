@@ -221,13 +221,12 @@ header .navbar .dropdownMenu lia:hover {
   text-align: right;
   margin-top: 3%;
 }
-
-.mainBody {
+.indexPG .mainBody {
   display: flex;
   gap: 1%;
   margin: 7% 2% 4% 2%;
 }
-.mainBody .infoBox {
+.indexPG .mainBody .infoBox {
   border: #897168 5px solid;
   background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
   background-position: center;
@@ -239,7 +238,7 @@ header .navbar .dropdownMenu lia:hover {
   border-radius: 30px;
   justify-content: center;
 }
-.mainBody .infoBox .infoBox-logo {
+.indexPG .mainBody .infoBox .infoBox-logo {
   border: #897168 5px solid;
   background-color: #e6d4f1;
   padding: 5%;
@@ -250,26 +249,26 @@ header .navbar .dropdownMenu lia:hover {
   cursor: pointer;
   transition: scale 1 ease;
 }
-.mainBody .infoBox .infoBox-logo.infoBox-logo:hover {
+.indexPG .mainBody .infoBox .infoBox-logo.infoBox-logo:hover {
   scale: 1.25;
   color: #fff;
 }
-.mainBody .infoBox .infoBox-logo.contactanos_btn :active {
+.indexPG .mainBody .infoBox .infoBox-logo.contactanos_btn :active {
   scale: 2;
 }
-.mainBody .infoBox .infoBox-logo img {
+.indexPG .mainBody .infoBox .infoBox-logo img {
   width: 100%;
   background-color: #e6d4f1;
   border: #897168 4px solid;
 }
-.mainBody .infoBox .infoBox-logo h3 {
+.indexPG .mainBody .infoBox .infoBox-logo h3 {
   padding: 2%;
   margin-top: 5%;
   color: #897168;
   font-size: 2rem;
   font-weight: bold;
 }
-.mainBody .infoBox .infoBox-logo p {
+.indexPG .mainBody .infoBox .infoBox-logo p {
   padding: 5% 2%;
   font-size: 1.5rem;
   color: #897168;

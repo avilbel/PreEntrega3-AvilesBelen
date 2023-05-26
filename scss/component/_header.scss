@@ -1,5 +1,7 @@
 
+
 header {
+
 	position: relative;
     padding: 1.5rem;
     background-image: url("https://images.unsplash.com/photo-1612107463480-ed64144265b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80%27");
@@ -16,6 +18,8 @@ header {
 		height: 2.5%;
 		padding-top: 1px;
 		display: flex;
+
+		
 		
 		.navLogo {
 			border: #897168 2px solid;
@@ -25,6 +29,7 @@ header {
 		.nav-links{
 			display: flex;
 			gap: 2.5rem;
+
 			
 
 			li{
@@ -59,6 +64,8 @@ header {
 			cursor: pointer;
 			transition: scale 1 ease;
 			box-shadow: #66615f 5px 5px 5px;
+
+			
 		  
 			&.contactanos_btn:hover{
 				scale: 1.05;
@@ -80,6 +87,8 @@ header {
 			background: #faf2ee;
 			border-radius: 10px;
 			overflow: hidden;
+
+			
 
 			&.dropdownMenu.open{
 				height: 375px;
@@ -108,8 +117,9 @@ header {
 						}
 					}
 				}
+		}
 	}
-}
+
 
 
 
