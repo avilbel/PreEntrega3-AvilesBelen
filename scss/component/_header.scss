@@ -18,23 +18,15 @@ header {
 		padding-top: 1px;
 		display: flex;
 
-		
-		
-		.navLogo {
+		.nav{
 			border: #897168 2px solid;
 			box-shadow: #66615f 5px 5px 5px;
-		}
+		
 
-		.nav-links{
-			display: flex;
-			gap: 2.5rem;
-
-			
-
-			li{
+			.nav-item{
 				list-style: none;
 
-				a{
+				.nav-link {
 					text-decoration: none;
 					font-family: 'Kanit', sans-serif;
 					color: #897168;
@@ -50,9 +42,6 @@ header {
 				}	
 			} 
 
-			@media screen and (max-width: 1700px) {
-				display: none;
-			}
 		}
 
 		.contactanos_btn {  
@@ -96,63 +85,9 @@ header {
 
 
 		}
-		.dropdownMenu {
-			display: none;
-			position: absolute;
-			right: 2rem;
-			top: 60px;
-			height: 0px; 
-			width: 300px; 
-			background: #faf2ee;
-			border-radius: 10px;
-			overflow: hidden;
-
-			
-
-			&.dropdownMenu.open{
-				height: 375px;
-				margin: 60px 70px;
-			  }
-
-			li{
-				list-style: none;
-				padding: .5rem;
-				display: flex;
-				align-items: center; 
-				justify-content: center;
-				border: #897168 1px solid;
-			
-				a{ 
-					padding: 1px 1.5px; 
-					text-decoration: none;
-					font-family: 'Kanit', sans-serif;
-					color: #897168;
-					font-size: 1.5rem; 
-					background-color: #faf2ee;
-				}
-						&a:hover{
-							background-color: #bb9f94;
-							color: #faf2ee;
-						}
-					}
-
-			@media screen and (max-width: 1700px) {
-				display: block;
-				}
-				}
-
 		
-			@media screen and (max-width: 1700px) {
-				display: none;
-			}		
-
-		@media screen and (max-width: 1700px) {
-			display: block;
-			margin-right: 5%;
-			}
-		}
 	}
-
+}
 
 
 

@@ -64,45 +64,32 @@
         <div class="navLogo">
           <a href="index.html"><img src="pics/sm-logo.png" alt="" /></a>
         </div>
-        <ul class="nav-links">
-          <li><a href="pg/admin.html">Derecho Administrativo</a></li>
-          <li><a href="pg/at.html">Acidente De Trafico</a></li>
-          <li><a href="pg/dc.html">Derecho Civil</a></li>
-          <li><a href="pg/dp.html">Derecho Penal</a></li>
-          <li><a href="pg/suc.html">Sucesiones</a></li>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pg/admin.html"
+              >Administrativo</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pg/at.html">Acidente de Transito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pg/dc.html">Derecho Civil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="pg/dp.html">Derecho Penal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pg/suc.html">Sucesiones</a>
+          </li>
         </ul>
         <a href="pg/contact.html" class="contactanos_btn">Contactanos!</a>
         <div class="toggle_btn">
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
-      <div class="dropdownMenu">
-        <li><a href="pg/admin.html">Derecho Administrativo</a></li>
-        <li><a href="pg/at.html">Acidente De Trafico</a></li>
-        <li><a href="pg/dc.html">Derecho Civil</a></li>
-        <li><a href="pg/dp.html">Derecho Penal</a></li>
-        <li><a href="pg/suc.html">Sucesiones</a></li>
-        <li>
-          <a class="contactanos_btn" href="pg/contact.html">Contactanos!</a>
-        </li>
-      </div>
     </header>
 
-    <!-- function for contactanos btn -->
-    <script>
-      const toggle_btn = document.querySelector(".toggle_btn");
-      const toggle_btnIcon = document.querySelector(".toggle_btn i");
-      const dropdownMenu = document.querySelector(".dropdownMenu");
-
-      toggle_btn.onclick = function () {
-        dropdownMenu.classList.toggle("open");
-        const isOpen = dropdownMenu.classList.contains("open");
-
-        toggle_btn.classList = isOpen
-          ? "fa-solid fa-x-mark"
-          : "fa-solid fa-bars";
-      };
-    </script>
     <!-- END function for contactanos btn -->
     <main class="indexPG">
       <section class="introBox">
